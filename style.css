@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    /*Remove as margens externas padrão que o navegador coloca.*/
+    padding: 0;
+    /*Remove os espaçamentos internos.*/
+    box-sizing: border-box;
+    /*Faz com que padding e borda sejam incluídos dentro do width/height, evitando bugs no layout.*/
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    text-align: justify;
+    background-color: rgb(237, 232, 225);
+    line-height: 1.6;
+
+}
+
+
+h1 {
+    font-size: 70px;
+    background-color: rgb(36, 90, 36);
+    color: white;
+    line-height: 70px;
+    text-align: right;
+    padding-right: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cabeça {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagens/fundo-header.jpg); /*define imagemcomo plano de fundo*/
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+strong{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.7em;
+}
+h2 {
+    margin-top: 20px;
+    margin: 20px;
+    text-align: center;
+    color: rgb(117, 79, 15);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+}
+
+.divo {
+    display: flex;
+    /*colocar os itens lado a lado*/
+    align-items: flex-start;
+    /*espaço entre os elementos*/
+    text-align: justify;
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+    text-align: justify;
+    margin-top: 40px;
+    
+}
+
+.o {
+    line-height: 50px;
+    white-space: nowrap;
+    /*evita quebra de linha*/
+    text-align: center;
+    margin-top: 70px;
+    padding-right: 350px;
+    margin-left: 175px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.destaque {
+    color: rgb(223, 204, 0);
+}
+.destaque:hover{
+    color: rgb(4, 6, 38);
+}
+
+.po {
+    line-height: 40px;
+    max-width: 600px;
+    padding-right: 50px;
+    margin-top: 30px;
+}
+
+.b {
+    line-height: 35px;
+    white-space: nowrap;
+    margin-top: 90px;
+    padding-right: 315px;
+    margin-left: 150px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ment {
+    color: rgb(223, 204, 0);
+}
+.ment:hover{
+    color: rgb(4, 6, 38);
+}
+.sust {
+    color: rgb(3, 134, 3)
+}
+.sust:hover{
+    color: rgb(4, 6, 38);
+}
+
+.pb {
+    line-height: 40px;
+    max-width: 600px;
+    padding-right: 60px;
+    margin-top: 30px;
+}
+
+.ch3 {
+    line-height: 40px;
+    margin: 100px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 800px;
+}
+
+footer {
+    padding: 4px;
+    margin-top: 40px;
+    text-align: center;
+    background-color: rgb(43, 139, 5);
+    color: white;
+}
+
+.ph4{
+    width: 60%;
+    display: block;
+    margin:auto ;
+    border-top: 2px solid white;
+    font-weight: bold;
+}
